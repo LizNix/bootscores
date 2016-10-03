@@ -1,0 +1,2 @@
+# bootscores
+WordPress Starter Theme
