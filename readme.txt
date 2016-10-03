@@ -21,6 +21,7 @@ For information on enqueuing scripts and styles visit
 https://codex.wordpress.org/Function_Reference/wp_enqueue_style
 */
 
+
 /* ---- NEW in v1.2 ---- 
 
 1.2.2
