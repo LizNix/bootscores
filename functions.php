@@ -121,7 +121,7 @@ function bootscores_enqueue_scripts() {
 	
 	/************** styles ************/	
 	/* bootstrap framework */
-	wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' );
+	wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' );
 
 	/*nav style*/
 	wp_enqueue_style( 'flexnavstyle', get_template_directory_uri().'/library/css/flexnav.css' );
@@ -138,7 +138,9 @@ function bootscores_enqueue_scripts() {
 	/************** scripts ************/
 	
 	/*bootstrap scripts*/
-	wp_enqueue_script( 'bootscores-bootstrap-js','//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js', array('jquery'), '', true );
+	wp_enqueue_script( 'bootscores-bootstrap-js','//maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js', array('jquery'), '', true );
+	/*proper js scripts*/
+	wp_enqueue_script( 'proper-js','//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js', array('jquery'), '', true );
 	
 	/* flexnav js */
 	wp_enqueue_script( 'flexnavscript', get_template_directory_uri().'/library/js/jquery.flexnav.min.js', array('jquery'), '', true );
